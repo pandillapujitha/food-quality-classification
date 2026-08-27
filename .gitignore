@@ -13,13 +13,6 @@ ENV/
 # Jupyter
 .ipynb_checkpoints/
 
-# Dataset (large, downloaded automatically - do not commit)
-dataset/train/*
-dataset/test/*
-!dataset/train/fresh/.gitkeep
-!dataset/train/rotten/.gitkeep
-!dataset/test/fresh/.gitkeep
-!dataset/test/rotten/.gitkeep
 # Dataset
 dataset/train/*
 dataset/test/*
@@ -30,16 +23,13 @@ small_dataset/
 !dataset/test/fresh/.gitkeep
 !dataset/test/rotten/.gitkeep
 
-# Trained models
-models/*.pth
+# Trained model
+# Keep the .pth model so it can be deployed on Streamlit Cloud
+!models/
+!models/food_quality_model.pth
 !models/.gitkeep
 
-
-# Trained models (large binary files - do not commit)
-models/*.pth
-!models/.gitkeep
-
-# Generated plots (optional to keep, regenerated on training)
+# Generated plots
 # plots/*.png
 
 # Logs
@@ -55,9 +45,11 @@ Thumbs.db
 .idea/
 *.swp
 
-# Streamlit
+# Streamlit secrets
 .streamlit/secrets.toml
 
 # Environment variables
 .env
+
+# Kaggle credentials
 kaggle.json
