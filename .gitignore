@@ -1,0 +1,63 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset (large, downloaded automatically - do not commit)
+dataset/train/*
+dataset/test/*
+!dataset/train/fresh/.gitkeep
+!dataset/train/rotten/.gitkeep
+!dataset/test/fresh/.gitkeep
+!dataset/test/rotten/.gitkeep
+# Dataset
+dataset/train/*
+dataset/test/*
+small_dataset/
+
+!dataset/train/fresh/.gitkeep
+!dataset/train/rotten/.gitkeep
+!dataset/test/fresh/.gitkeep
+!dataset/test/rotten/.gitkeep
+
+# Trained models
+models/*.pth
+!models/.gitkeep
+
+
+# Trained models (large binary files - do not commit)
+models/*.pth
+!models/.gitkeep
+
+# Generated plots (optional to keep, regenerated on training)
+# plots/*.png
+
+# Logs
+*.log
+training_history.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+kaggle.json
