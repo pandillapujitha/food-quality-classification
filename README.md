@@ -1,4 +1,10 @@
 # 🍎 Deep Learning-Based Food Quality Classification System Using PyTorch
+## 🚀 Live Demo
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://food-quality-classification.streamlit.app)
+
+👉 **[Open Food Quality Classification App](https://food-quality-classification.streamlit.app)**
+
 
 A complete end-to-end deep learning project that classifies food images as
 **Fresh** or **Rotten** using a **ResNet18** convolutional neural network
