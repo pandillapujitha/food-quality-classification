@@ -1,4 +1,9 @@
 # 🍎 Deep Learning-Based Food Quality Classification System Using PyTorch
+
+## 🚀 Live Demo
+
+[🍎 Open Fruit Quality Classification App](https://fruit-quality-classification-1.streamlit.app/)
+
 ## 🚀 Live Demo
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://food-quality-classification.streamlit.app)
