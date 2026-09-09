@@ -15,7 +15,7 @@ PLOTS_DIR = PROJECT_ROOT / "plots"
 
 
 st.set_page_config(
-    page_title="Food Quality Classifier",
+    page_title="Fruit Quality Classifier",
     page_icon="🍎",
     layout="wide",
 )
@@ -25,7 +25,7 @@ st.set_page_config(
 # TITLE
 # ============================================================
 
-st.title("🍎 Food Quality Classification System")
+st.title("🍎 Fruit Quality Classification System")
 
 st.write(
     "Deep Learning (PyTorch · ResNet18) — "
